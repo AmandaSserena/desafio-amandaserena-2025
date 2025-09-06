@@ -1,12 +1,11 @@
-class AbrigoAnimais
- {
+class AbrigoAnimais {
   encontraPessoas(brinquedosPessoa1, brinquedosPessoa2, ordemAnimais) {
     // Base do enunciado
     const BD = {
-      REX:  { nome: 'Rex',  quer: ['RATO', 'BOLA'],  especie: 'cao'   },
-      MIMI: { nome: 'Mimi', quer: ['BOLA', 'LASER'], especie: 'gato'  },
+      REX: { nome: 'Rex', quer: ['RATO', 'BOLA'], especie: 'cao' },
+      MIMI: { nome: 'Mimi', quer: ['BOLA', 'LASER'], especie: 'gato' },
       FOFO: { nome: 'Fofo', quer: ['BOLA', 'RATO', 'LASER'], especie: 'gato' },
-      ZERO: { nome: 'Zero', quer: ['RATO', 'BOLA'],  especie: 'gato'  },
+      ZERO: { nome: 'Zero', quer: ['RATO', 'BOLA'], especie: 'gato' },
       BOLA: { nome: 'Bola', quer: ['CAIXA', 'NOVELO'], especie: 'cao' },
       BEBE: { nome: 'Bebe', quer: ['LASER', 'RATO', 'BOLA'], especie: 'cao' },
       LOCO: { nome: 'Loco', quer: ['SKATE', 'RATO'], especie: 'jabuti' }, // regra 6
