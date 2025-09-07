@@ -54,6 +54,9 @@ npm test
 ### Resultado dos testes
 
 Print do terminal com “Test Suites: 1 passed”:
+
+```
+
 ![Testes passando](img/PrintTestDB.png)
 
 ---
@@ -68,13 +71,6 @@ Print do terminal com “Test Suites: 1 passed”:
 package.json
 README.md
 ```
-
-O avaliador espera a classe e o export exatamente assim:
-
-```js
-export { AbrigoAnimais as AbrigoAnimais };
-```
-
 ---
 
 ## Exemplos do enunciado
