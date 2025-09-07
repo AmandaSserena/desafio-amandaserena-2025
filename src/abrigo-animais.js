@@ -16,7 +16,6 @@ class AbrigoAnimais {
       typeof txt === 'string'
         ? txt.split(',').map(s => s.trim().toUpperCase()).filter(Boolean)
         : [];
-
     const temDuplicata = (lista) => new Set(lista).size !== lista.length;
 
     // checa subsequência (pode intercalar); se consumirIndices=true, retorna também os índices usados
@@ -49,7 +48,6 @@ class AbrigoAnimais {
     if (brinquedoInvalido(p1) || brinquedoInvalido(p2)) return { erro: 'Brinquedo inválido' };
     if (!ordem.length || temDuplicata(ordem) || !ordem.every(a => chaves.includes(a))) {
       return { erro: 'Animal inválido' };
-    }
 
     // Estado para as regras 3 e 5
     const usadosGato = { p1: new Set(), p2: new Set() }; // índices de brinquedos já usados por GATOS
